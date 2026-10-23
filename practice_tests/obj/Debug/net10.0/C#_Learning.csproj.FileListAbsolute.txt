@@ -1,0 +1,15 @@
+w:\Programming Practice\C# learning\practice_tests\bin\Debug\net10.0\C#_Learning.exe
+w:\Programming Practice\C# learning\practice_tests\bin\Debug\net10.0\C#_Learning.deps.json
+w:\Programming Practice\C# learning\practice_tests\bin\Debug\net10.0\C#_Learning.runtimeconfig.json
+w:\Programming Practice\C# learning\practice_tests\bin\Debug\net10.0\C#_Learning.dll
+w:\Programming Practice\C# learning\practice_tests\bin\Debug\net10.0\C#_Learning.pdb
+w:\Programming Practice\C# learning\practice_tests\obj\Debug\net10.0\C#_Learning.GeneratedMSBuildEditorConfig.editorconfig
+w:\Programming Practice\C# learning\practice_tests\obj\Debug\net10.0\C#_Learning.AssemblyInfoInputs.cache
+w:\Programming Practice\C# learning\practice_tests\obj\Debug\net10.0\C#_Learning.AssemblyInfo.cs
+w:\Programming Practice\C# learning\practice_tests\obj\Debug\net10.0\C#_Learning.csproj.CoreCompileInputs.cache
+w:\Programming Practice\C# learning\practice_tests\obj\Debug\net10.0\C#_Learning.sourcelink.json
+w:\Programming Practice\C# learning\practice_tests\obj\Debug\net10.0\C#_Learning.dll
+w:\Programming Practice\C# learning\practice_tests\obj\Debug\net10.0\refint\C#_Learning.dll
+w:\Programming Practice\C# learning\practice_tests\obj\Debug\net10.0\C#_Learning.pdb
+w:\Programming Practice\C# learning\practice_tests\obj\Debug\net10.0\C#_Learning.genruntimeconfig.cache
+w:\Programming Practice\C# learning\practice_tests\obj\Debug\net10.0\ref\C#_Learning.dll
