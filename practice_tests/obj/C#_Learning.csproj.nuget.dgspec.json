@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "W:\\Programming Practice\\C# learning\\C#_Learning\\C#_Learning.csproj": {}
+    "w:\\Programming Practice\\C# learning\\practice_tests\\C#_Learning.csproj": {}
   },
   "projects": {
-    "W:\\Programming Practice\\C# learning\\C#_Learning\\C#_Learning.csproj": {
+    "w:\\Programming Practice\\C# learning\\practice_tests\\C#_Learning.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\Programming Practice\\C# learning\\C#_Learning\\C#_Learning.csproj",
+        "projectUniqueName": "w:\\Programming Practice\\C# learning\\practice_tests\\C#_Learning.csproj",
         "projectName": "C#_Learning",
-        "projectPath": "W:\\Programming Practice\\C# learning\\C#_Learning\\C#_Learning.csproj",
+        "projectPath": "w:\\Programming Practice\\C# learning\\practice_tests\\C#_Learning.csproj",
         "packagesPath": "C:\\Users\\AntonioWF\\.nuget\\packages\\",
-        "outputPath": "W:\\Programming Practice\\C# learning\\C#_Learning\\obj\\",
+        "outputPath": "w:\\Programming Practice\\C# learning\\practice_tests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
