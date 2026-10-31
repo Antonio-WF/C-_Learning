@@ -1,8 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "l0vqU4nGQ7E=",
+  "dgSpecHash": "Jgxl2VCoVgs=",
   "success": true,
-  "projectFilePath": "w:\\Programming Practice\\C# learning\\practice_tests\\C#_Learning.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "W:\\Programming Practice\\C# learning\\practice_tests\\C#_Learning.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\AntonioWF\\.nuget\\packages\\microsoft.net.illink.tasks\\10.0.13\\microsoft.net.illink.tasks.10.0.13.nupkg.sha512",
+    "C:\\Users\\AntonioWF\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\10.0.13\\microsoft.netcore.app.runtime.win-x64.10.0.13.nupkg.sha512",
+    "C:\\Users\\AntonioWF\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\10.0.13\\microsoft.windowsdesktop.app.runtime.win-x64.10.0.13.nupkg.sha512",
+    "C:\\Users\\AntonioWF\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\10.0.13\\microsoft.aspnetcore.app.runtime.win-x64.10.0.13.nupkg.sha512",
+    "C:\\Users\\AntonioWF\\.nuget\\packages\\microsoft.netcore.app.crossgen2.win-x64\\10.0.13\\microsoft.netcore.app.crossgen2.win-x64.10.0.13.nupkg.sha512"
+  ],
   "logs": []
 }
