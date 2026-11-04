@@ -118,21 +118,27 @@ namespace Main_Program
             Console.WriteLine("jun27 |    June 2027   | 27.980.00 EUR");
             Console.WriteLine("jul27 |    July 2027   | 7.777.00 EUR");
         }
-                static void Input_Data()
+        static void Input_Data()
         {
             Console.WriteLine("Please Input the Income/Expense Name");
             string name = Console.ReadLine() ?? "";
+            float f_price;
             Console.WriteLine("Please Input the Price");
-            string price = Console.ReadLine() ?? "";
-            if (float.TryParse(price, out float f_price))
+            while(true)
             {
-            Console.WriteLine("Input/Expense Name: " + name); //testing Input Data
-            Console.WriteLine("Input/Expense Price: " + f_price); //testing Input Data
-            }
+            string price = Console.ReadLine() ?? "";
+
+            if (float.TryParse(price, out f_price))
+                {
+                    break;
+                }
             else
             {
                 Console.WriteLine("Please input a valid price.");
             }
+            }
+            Console.WriteLine("Input/Expense Name: " + name); //testing Input Data
+            Console.WriteLine("Input/Expense Price: " + f_price); //testing Input Data
         }
         static void Main(string[] args)
         {
