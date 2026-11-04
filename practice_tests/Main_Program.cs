@@ -16,9 +16,15 @@ namespace Main_Program
             Console.WriteLine("3. Expenses");
             Console.WriteLine("4. Input Item");
             Console.WriteLine("0. Exit");
+            
+//Testing Environment
+Console.WriteLine("------------------------");
+Console.WriteLine("999. Testing Environment");
+//Testing Environment
+
             string menu = Console.ReadLine() ?? "";
 
-            if(int.TryParse(menu, out int menu_Int) && (menu_Int==0 || menu_Int==1 || menu_Int==2 || menu_Int==3 || menu_Int==4))
+            if(int.TryParse(menu, out int menu_Int) && (menu_Int==0 || menu_Int==1 || menu_Int==2 || menu_Int==3 || menu_Int==4 || menu_Int==999))
             {
                 switch(menu_Int)
                 {
@@ -69,6 +75,12 @@ namespace Main_Program
                     Console.WriteLine("Data Saved.");
                     Console.WriteLine("Have a nice day! :)");
                     return;
+
+                    case 999:
+                    Console.Clear();
+                    Console.WriteLine("TESTING ENVIRONMENT ACTIVE");
+                    Date_Checker();
+                    break;
                 }
             }
             else
@@ -124,6 +136,15 @@ namespace Main_Program
             }
             Console.WriteLine("Input/Expense Name: " + name); //testing Input Data
             Console.WriteLine("Input/Expense Price: " + f_price); //testing Input Data
+        }
+
+        static void Date_Checker()
+        {
+            DateTime today_Now = DateTime.Now;
+            Console.WriteLine("Current Date and Time is: " + today_Now);
+            Console.WriteLine("Current Year is: " + today_Now.Year);
+            Console.WriteLine("Current Month is: " + today_Now.Month);
+            Console.WriteLine("Current Date in short format is: " + today_Now.ToString("dd/MM/yy"));
         }
         static void Main(string[] args)
         {
