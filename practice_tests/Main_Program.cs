@@ -36,7 +36,8 @@ namespace Main_Program
                     Console.Clear();
                     Console.WriteLine("Income Menu");
                     Console.WriteLine("-----------");
-                    Income_Menu();
+                    Console.WriteLine(" Code |      Month     | Total Income /m");
+                    First_Menu();
                     Console.WriteLine("");
                     Console.WriteLine("");
                     Console.WriteLine("");
@@ -46,7 +47,8 @@ namespace Main_Program
                     Console.Clear();
                     Console.WriteLine("Expenses Menu");
                     Console.WriteLine("-------------");
-                    Expenses_Menu();
+                    Console.WriteLine(" Code |      Month     | Total Expense /m");
+                    First_Menu();
                     Console.WriteLine("");
                     Console.WriteLine("");
                     Console.WriteLine("");
@@ -86,25 +88,8 @@ namespace Main_Program
             Console.WriteLine("Bank Balance (EUR):"); 
             Console.WriteLine("Crypto Balance (EUR):");   
         }
-        static void Income_Menu()
+                static void First_Menu()    //menu with all months for expenses/incomes
         {
-            Console.WriteLine(" Code |      Month     | Total Income /m");
-            Console.WriteLine("------+----------------+----------------"); 
-            Console.WriteLine("sep26 | September 2026 | 32.980.00 EUR");
-            Console.WriteLine("oct26 |  October 2026  | 35.954.00 EUR");
-            Console.WriteLine("nov26 |  November 2026 | 1.980.00 EUR");
-            Console.WriteLine("dec26 |  December 2026 | 55.120.00 EUR");
-            Console.WriteLine("jan27 |  January 2027  | 89.348.00 EUR");
-            Console.WriteLine("feb27 |  February 2027 | 32.980.00 EUR");
-            Console.WriteLine("mar27 |   March 2027   | 3.880.00 EUR");
-            Console.WriteLine("apr27 |   April 2027   | 58.080.00 EUR");
-            Console.WriteLine("may27 |    May 2027    | 11.000.00 EUR");
-            Console.WriteLine("jun27 |    June 2027   | 27.980.00 EUR");
-            Console.WriteLine("jul27 |    July 2027   | 7.777.00 EUR");
-        }
-                static void Expenses_Menu()
-        {
-            Console.WriteLine(" Code |      Month     | Total Expense /m");
             Console.WriteLine("------+----------------+----------------"); 
             Console.WriteLine("sep26 | September 2026 | 32.980.00 EUR");
             Console.WriteLine("oct26 |  October 2026  | 35.954.00 EUR");
