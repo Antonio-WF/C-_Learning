@@ -1,31 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "W:\\Programming Practice\\C# learning\\practice_tests\\C#_Learning.csproj": {}
+    "C:\\STORAGE\\C# Learning\\C-_Learning\\practice_tests\\C#_Learning.csproj": {}
   },
   "projects": {
-    "W:\\Programming Practice\\C# learning\\practice_tests\\C#_Learning.csproj": {
+    "C:\\STORAGE\\C# Learning\\C-_Learning\\practice_tests\\C#_Learning.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "W:\\Programming Practice\\C# learning\\practice_tests\\C#_Learning.csproj",
+        "projectUniqueName": "C:\\STORAGE\\C# Learning\\C-_Learning\\practice_tests\\C#_Learning.csproj",
         "projectName": "C#_Learning",
-        "projectPath": "W:\\Programming Practice\\C# learning\\practice_tests\\C#_Learning.csproj",
-        "packagesPath": "C:\\Users\\AntonioWF\\.nuget\\packages\\",
-        "outputPath": "W:\\Programming Practice\\C# learning\\practice_tests\\obj\\",
+        "projectPath": "C:\\STORAGE\\C# Learning\\C-_Learning\\practice_tests\\C#_Learning.csproj",
+        "packagesPath": "C:\\Users\\Laptop\\.nuget\\packages\\",
+        "outputPath": "C:\\STORAGE\\C# Learning\\C-_Learning\\practice_tests\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\AntonioWF\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Laptop\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net10.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -51,14 +45,6 @@
         "net10.0": {
           "framework": "net10.0",
           "targetAlias": "net10.0",
-          "dependencies": {
-            "Microsoft.NET.ILLink.Tasks": {
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[10.0.13, )",
-              "autoReferenced": true
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -70,30 +56,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[10.0.13, 10.0.13]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
-              "version": "[10.0.13, 10.0.13]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[10.0.13, 10.0.13]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[10.0.13, 10.0.13]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.402/PortableRuntimeIdentifierGraph.json",
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.403/PortableRuntimeIdentifierGraph.json",
           "packagesToPrune": {
             "Microsoft.CSharp": "(,4.7.32767]",
             "Microsoft.VisualBasic": "(,10.4.32767]",
@@ -368,11 +336,6 @@
             "System.Xml.XPath": "(,4.3.32767]",
             "System.Xml.XPath.XDocument": "(,5.0.32767]"
           }
-        }
-      },
-      "runtimes": {
-        "win-x64": {
-          "#import": []
         }
       }
     }
