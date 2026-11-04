@@ -120,10 +120,10 @@ namespace Main_Program
         }
         static void Input_Data()
         {
-            Console.WriteLine("Please Input the Income/Expense Name");
+            Console.WriteLine("Please Input the Income/Expense Name:");
             string name = Console.ReadLine() ?? "";
             float f_price;
-            Console.WriteLine("Please Input the Price");
+            Console.WriteLine("Please Input the Price:");
             while(true)
             {
             string price = Console.ReadLine() ?? "";
@@ -134,7 +134,7 @@ namespace Main_Program
                 }
             else
             {
-                Console.WriteLine("Please input a valid price.");
+                Console.WriteLine("Please input a valid price:");
             }
             }
             Console.WriteLine("Input/Expense Name: " + name); //testing Input Data
